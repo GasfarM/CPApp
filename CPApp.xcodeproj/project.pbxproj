@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145BC9851983975A00D58893 /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145BC9841983975A00D58893 /* PhotoPickerViewController.m */; };
+		145BC9881983979800D58893 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145BC9871983979800D58893 /* PreviewViewController.m */; };
+		145BC98B1983BCCF00D58893 /* PhotoPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 145BC98A1983BCCF00D58893 /* PhotoPickerCell.m */; };
+		147F6D3C19828731006C7365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D3B19828731006C7365 /* Foundation.framework */; };
+		147F6D3E19828731006C7365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D3D19828731006C7365 /* CoreGraphics.framework */; };
+		147F6D4019828731006C7365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D3F19828731006C7365 /* UIKit.framework */; };
+		147F6D4619828731006C7365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147F6D4419828731006C7365 /* InfoPlist.strings */; };
+		147F6D4819828731006C7365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F6D4719828731006C7365 /* main.m */; };
+		147F6D4C19828731006C7365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F6D4B19828731006C7365 /* AppDelegate.m */; };
+		147F6D4E19828731006C7365 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147F6D4D19828731006C7365 /* Images.xcassets */; };
+		147F6D5519828731006C7365 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D5419828731006C7365 /* XCTest.framework */; };
+		147F6D5619828731006C7365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D3B19828731006C7365 /* Foundation.framework */; };
+		147F6D5719828731006C7365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D3F19828731006C7365 /* UIKit.framework */; };
+		147F6D5F19828731006C7365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147F6D5D19828731006C7365 /* InfoPlist.strings */; };
+		147F6D6119828731006C7365 /* CPAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F6D6019828731006C7365 /* CPAppTests.m */; };
+		147F6D6B19828AA3006C7365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F6D6A19828AA3006C7365 /* Main.storyboard */; };
+		147F6D6E19828B56006C7365 /* UserSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F6D6D19828B56006C7365 /* UserSearchViewController.m */; };
+		147F6D7519829DBD006C7365 /* InstagramAPIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F6D7419829DBD006C7365 /* InstagramAPIModel.m */; };
+		147F6D7819829FF1006C7365 /* InstagramAPIConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F6D7719829FF1006C7365 /* InstagramAPIConsts.m */; };
+		147F6D7A1982BDAA006C7365 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F6D791982BDAA006C7365 /* MessageUI.framework */; };
+		EEAF944055EA49F496882854 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C43E1C99547EF84FDC85D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147F6D5819828731006C7365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147F6D3019828731006C7365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147F6D3719828731006C7365;
+			remoteInfo = CPApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145BC9831983975A00D58893 /* PhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewController.h; sourceTree = "<group>"; };
+		145BC9841983975A00D58893 /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
+		145BC9861983979800D58893 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		145BC9871983979800D58893 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		145BC9891983BCCF00D58893 /* PhotoPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCell.h; sourceTree = "<group>"; };
+		145BC98A1983BCCF00D58893 /* PhotoPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCell.m; sourceTree = "<group>"; };
+		147F6D3819828731006C7365 /* CPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F6D3B19828731006C7365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		147F6D3D19828731006C7365 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		147F6D3F19828731006C7365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		147F6D4319828731006C7365 /* CPApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPApp-Info.plist"; sourceTree = "<group>"; };
+		147F6D4519828731006C7365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147F6D4719828731006C7365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147F6D4919828731006C7365 /* CPApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPApp-Prefix.pch"; sourceTree = "<group>"; };
+		147F6D4A19828731006C7365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		147F6D4B19828731006C7365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		147F6D4D19828731006C7365 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		147F6D5319828731006C7365 /* CPAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F6D5419828731006C7365 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		147F6D5C19828731006C7365 /* CPAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPAppTests-Info.plist"; sourceTree = "<group>"; };
+		147F6D5E19828731006C7365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147F6D6019828731006C7365 /* CPAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppTests.m; sourceTree = "<group>"; };
+		147F6D6A19828AA3006C7365 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		147F6D6C19828B56006C7365 /* UserSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchViewController.h; sourceTree = "<group>"; };
+		147F6D6D19828B56006C7365 /* UserSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSearchViewController.m; sourceTree = "<group>"; };
+		147F6D7319829DBD006C7365 /* InstagramAPIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAPIModel.h; sourceTree = "<group>"; };
+		147F6D7419829DBD006C7365 /* InstagramAPIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAPIModel.m; sourceTree = "<group>"; };
+		147F6D7619829FF1006C7365 /* InstagramAPIConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAPIConsts.h; sourceTree = "<group>"; };
+		147F6D7719829FF1006C7365 /* InstagramAPIConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAPIConsts.m; sourceTree = "<group>"; };
+		147F6D791982BDAA006C7365 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B01C43E1C99547EF84FDC85D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E410F1F8954142DABC30311D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147F6D3519828731006C7365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F6D7A1982BDAA006C7365 /* MessageUI.framework in Frameworks */,
+				147F6D3E19828731006C7365 /* CoreGraphics.framework in Frameworks */,
+				147F6D4019828731006C7365 /* UIKit.framework in Frameworks */,
+				147F6D3C19828731006C7365 /* Foundation.framework in Frameworks */,
+				EEAF944055EA49F496882854 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F6D5019828731006C7365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F6D5519828731006C7365 /* XCTest.framework in Frameworks */,
+				147F6D5719828731006C7365 /* UIKit.framework in Frameworks */,
+				147F6D5619828731006C7365 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14401D3E1984E54100964997 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				145BC9861983979800D58893 /* PreviewViewController.h */,
+				145BC9871983979800D58893 /* PreviewViewController.m */,
+				147F6D6C19828B56006C7365 /* UserSearchViewController.h */,
+				147F6D6D19828B56006C7365 /* UserSearchViewController.m */,
+				145BC9831983975A00D58893 /* PhotoPickerViewController.h */,
+				145BC9841983975A00D58893 /* PhotoPickerViewController.m */,
+				145BC9891983BCCF00D58893 /* PhotoPickerCell.h */,
+				145BC98A1983BCCF00D58893 /* PhotoPickerCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		147F6D2F19828731006C7365 = {
+			isa = PBXGroup;
+			children = (
+				147F6D4119828731006C7365 /* CPApp */,
+				147F6D5A19828731006C7365 /* CPAppTests */,
+				147F6D3A19828731006C7365 /* Frameworks */,
+				147F6D3919828731006C7365 /* Products */,
+				E410F1F8954142DABC30311D /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		147F6D3919828731006C7365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147F6D3819828731006C7365 /* CPApp.app */,
+				147F6D5319828731006C7365 /* CPAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147F6D3A19828731006C7365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147F6D791982BDAA006C7365 /* MessageUI.framework */,
+				147F6D3B19828731006C7365 /* Foundation.framework */,
+				147F6D3D19828731006C7365 /* CoreGraphics.framework */,
+				147F6D3F19828731006C7365 /* UIKit.framework */,
+				147F6D5419828731006C7365 /* XCTest.framework */,
+				B01C43E1C99547EF84FDC85D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147F6D4119828731006C7365 /* CPApp */ = {
+			isa = PBXGroup;
+			children = (
+				14401D3E1984E54100964997 /* Views */,
+				147F6D6F19828CCB006C7365 /* InstagramAPI */,
+				147F6D6A19828AA3006C7365 /* Main.storyboard */,
+				147F6D4A19828731006C7365 /* AppDelegate.h */,
+				147F6D4B19828731006C7365 /* AppDelegate.m */,
+				147F6D4D19828731006C7365 /* Images.xcassets */,
+				147F6D4219828731006C7365 /* Supporting Files */,
+			);
+			path = CPApp;
+			sourceTree = "<group>";
+		};
+		147F6D4219828731006C7365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147F6D4319828731006C7365 /* CPApp-Info.plist */,
+				147F6D4419828731006C7365 /* InfoPlist.strings */,
+				147F6D4719828731006C7365 /* main.m */,
+				147F6D4919828731006C7365 /* CPApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147F6D5A19828731006C7365 /* CPAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				147F6D6019828731006C7365 /* CPAppTests.m */,
+				147F6D5B19828731006C7365 /* Supporting Files */,
+			);
+			path = CPAppTests;
+			sourceTree = "<group>";
+		};
+		147F6D5B19828731006C7365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147F6D5C19828731006C7365 /* CPAppTests-Info.plist */,
+				147F6D5D19828731006C7365 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147F6D6F19828CCB006C7365 /* InstagramAPI */ = {
+			isa = PBXGroup;
+			children = (
+				147F6D7319829DBD006C7365 /* InstagramAPIModel.h */,
+				147F6D7419829DBD006C7365 /* InstagramAPIModel.m */,
+				147F6D7619829FF1006C7365 /* InstagramAPIConsts.h */,
+				147F6D7719829FF1006C7365 /* InstagramAPIConsts.m */,
+			);
+			name = InstagramAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147F6D3719828731006C7365 /* CPApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F6D6419828731006C7365 /* Build configuration list for PBXNativeTarget "CPApp" */;
+			buildPhases = (
+				B9836952811445D9AF56E830 /* Check Pods Manifest.lock */,
+				147F6D3419828731006C7365 /* Sources */,
+				147F6D3519828731006C7365 /* Frameworks */,
+				147F6D3619828731006C7365 /* Resources */,
+				18A4338DA5204352939F3529 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPApp;
+			productName = CPApp;
+			productReference = 147F6D3819828731006C7365 /* CPApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147F6D5219828731006C7365 /* CPAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F6D6719828731006C7365 /* Build configuration list for PBXNativeTarget "CPAppTests" */;
+			buildPhases = (
+				147F6D4F19828731006C7365 /* Sources */,
+				147F6D5019828731006C7365 /* Frameworks */,
+				147F6D5119828731006C7365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147F6D5919828731006C7365 /* PBXTargetDependency */,
+			);
+			name = CPAppTests;
+			productName = CPAppTests;
+			productReference = 147F6D5319828731006C7365 /* CPAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147F6D3019828731006C7365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NT;
+				TargetAttributes = {
+					147F6D5219828731006C7365 = {
+						TestTargetID = 147F6D3719828731006C7365;
+					};
+				};
+			};
+			buildConfigurationList = 147F6D3319828731006C7365 /* Build configuration list for PBXProject "CPApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 147F6D2F19828731006C7365;
+			productRefGroup = 147F6D3919828731006C7365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147F6D3719828731006C7365 /* CPApp */,
+				147F6D5219828731006C7365 /* CPAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147F6D3619828731006C7365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F6D6B19828AA3006C7365 /* Main.storyboard in Resources */,
+				147F6D4619828731006C7365 /* InfoPlist.strings in Resources */,
+				147F6D4E19828731006C7365 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F6D5119828731006C7365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F6D5F19828731006C7365 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A4338DA5204352939F3529 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9836952811445D9AF56E830 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147F6D3419828731006C7365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F6D4C19828731006C7365 /* AppDelegate.m in Sources */,
+				145BC9851983975A00D58893 /* PhotoPickerViewController.m in Sources */,
+				147F6D4819828731006C7365 /* main.m in Sources */,
+				147F6D6E19828B56006C7365 /* UserSearchViewController.m in Sources */,
+				145BC98B1983BCCF00D58893 /* PhotoPickerCell.m in Sources */,
+				145BC9881983979800D58893 /* PreviewViewController.m in Sources */,
+				147F6D7519829DBD006C7365 /* InstagramAPIModel.m in Sources */,
+				147F6D7819829FF1006C7365 /* InstagramAPIConsts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F6D4F19828731006C7365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F6D6119828731006C7365 /* CPAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147F6D5919828731006C7365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147F6D3719828731006C7365 /* CPApp */;
+			targetProxy = 147F6D5819828731006C7365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147F6D4419828731006C7365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F6D4519828731006C7365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		147F6D5D19828731006C7365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F6D5E19828731006C7365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147F6D6219828731006C7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147F6D6319828731006C7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147F6D6519828731006C7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E410F1F8954142DABC30311D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPApp/CPApp-Prefix.pch";
+				INFOPLIST_FILE = "CPApp/CPApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		147F6D6619828731006C7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E410F1F8954142DABC30311D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPApp/CPApp-Prefix.pch";
+				INFOPLIST_FILE = "CPApp/CPApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		147F6D6819828731006C7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CPApp.app/CPApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPApp/CPApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CPAppTests/CPAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		147F6D6919828731006C7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CPApp.app/CPApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPApp/CPApp-Prefix.pch";
+				INFOPLIST_FILE = "CPAppTests/CPAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147F6D3319828731006C7365 /* Build configuration list for PBXProject "CPApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F6D6219828731006C7365 /* Debug */,
+				147F6D6319828731006C7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F6D6419828731006C7365 /* Build configuration list for PBXNativeTarget "CPApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F6D6519828731006C7365 /* Debug */,
+				147F6D6619828731006C7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F6D6719828731006C7365 /* Build configuration list for PBXNativeTarget "CPAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F6D6819828731006C7365 /* Debug */,
+				147F6D6919828731006C7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147F6D3019828731006C7365 /* Project object */;
+}
